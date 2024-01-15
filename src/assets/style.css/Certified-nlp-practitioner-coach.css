@@ -1,0 +1,133 @@
+/* .entry-banner {
+    background: 'url(https://www.nlptrainingdubai.com/wp-content/themes/financepro/assets/img/banner.jpg) no-repeat scroll center center / cover',
+
+} */
+.wpb_content_element, ul.wpb_thumbnails-fluid > li {
+  margin-bottom: 0px !important;
+}
+.wpb_single_image img {
+  width: 1250px !important;
+}
+
+body {
+  font-family: Ubuntu, sans-serif;
+  ;
+  font-size: 15px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: Ubuntu;
+  font-size: 40px;
+  line-height: 44px;
+  font-weight: 500;
+}
+
+h2 {
+  font-family: Ubuntu, sans-serif;
+  ;
+  font-size: 28px;
+  line-height: 31px;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: Ubuntu, sans-serif;
+  ;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+h4 {
+  font-family: Ubuntu, sans-serif;
+  ;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+h5 {
+  font-family: Ubuntu, sans-serif;
+  ;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+h6 {
+  font-family: Ubuntu, sans-serif;
+  ;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+}
+h1 {
+  text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color:#180909;
+  margin: 80px 0;
+}
+
+.certified h3 {
+  color: black;
+}
+
+.certified a {
+  text-align: center !important;
+}
+.course-section p {
+  font-size: 16px;
+}
+
+.certified a {
+  text-align: center !important;
+  font-size: 20px;
+}
+
+.dubainlp-section {
+  padding-left: 80px !important;
+}
+
+.dubainlp-section-2 {
+  padding-left: 60px;
+}
+
+.ler {
+  color: #000000;
+  font: normal normal normal 34px/1.55em 'open sans', sans-serif;
+}
+.wpb_single_image img {
+  width: 1250px !important;
+
+}
+h3 {
+  color: black;
+}
+.event-logo img {
+  height: 100%;
+
+}
+.event-logo {
+  box-shadow: none;
+}
+
+.cont {
+  padding: 30px 1em 30px 1em;
+  text-align: left;
+  height: '300px';
+  width: '100%';
+  background-color: rgb(13, 56, 92);
+  color: #ffffff;
+  font: normal normal normal 18px/1.18em proxima-n-w01-reg,sans-serif;
+  line-height: 1.5;
+}
+
+.table {
+  display: flex;
+  text-align: left;
+  margin: 15px 0;
+  
+  
+}

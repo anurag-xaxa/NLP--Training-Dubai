@@ -1,6 +1,7 @@
 import React from "react";
 import '../assets/style.css/AboutUs.css'
 
+
 const AboutUs = () => {
 
     return (
@@ -249,6 +250,7 @@ const AboutUs = () => {
                     </p>
                 </div>
             </div>
+            
             <div className="vc_row wpb_row vc_row-fluid vc_custom_1548161210328">
                 <div className="wpb_column vc_column_container vc_col-sm-3">
                     <div className="vc_column-inner">
@@ -266,7 +268,8 @@ const AboutUs = () => {
                                             data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/888uma-260x300.png"
                                             data-sizes="(max-width: 260px) 100vw, 260px"
                                             className="vc_single_image-img attachment-medium lazyload"
-                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            // src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            src="888uma.png"
                                         />
                                         <noscript>
                                             <img
@@ -274,7 +277,7 @@ const AboutUs = () => {
                                                 decoding="async"
                                                 width="260"
                                                 height="300"
-                                                src="https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/888uma-260x300.png"
+                                                src="888uma.png"
                                                 className="vc_single_image-img attachment-medium"
                                                 alt="uma ma'am"
                                                 srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/888uma-260x300.png 260w, https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/888uma-260x300.png 369w"
@@ -335,6 +338,7 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+            
             <div className="vc_row wpb_row vc_row-fluid vc_custom_1548161210328">
                 <div className="wpb_column vc_column_container vc_col-sm-3">
                     <div className="vc_column-inner">
@@ -351,14 +355,15 @@ const AboutUs = () => {
                                             data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/559menon-260x300.png"
                                             data-sizes="(max-width: 260px) 100vw, 260px"
                                             className="vc_single_image-img attachment-medium lazyload"
-                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            // src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            src="559menon.png"
                                         />
                                         <noscript>
                                             <img
                                                 decoding="async"
                                                 width="260"
                                                 height="300"
-                                                src="https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/559menon-260x300.png"
+                                                src="559menon.png"
                                                 className="vc_single_image-img attachment-medium"
                                                 alt="menon sir"
                                                 srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/559menon-260x300.png 260w, https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/559menon.png 368w"
@@ -429,14 +434,15 @@ const AboutUs = () => {
                                             data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/947vikram-258x300.jpg"
                                             data-sizes="(max-width: 258px) 100vw, 258px"
                                             className="vc_single_image-img attachment-medium lazyload"
-                                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            // src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                            src="947vikram.jpg"
                                         />
                                         <noscript>
                                             <img
                                                 decoding="async"
                                                 width="258"
                                                 height="300"
-                                                src="https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/947vikram-258x300.jpg"
+                                                src="947vikram.jpg"
                                                 className="vc_single_image-img attachment-medium"
                                                 alt="vikram sir"
                                                 srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/947vikram-258x300.jpg 258w, https://www.nlptrainingdubai.com/wp-content/uploads/2017/08/947vikram.jpg 370w"

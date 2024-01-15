@@ -5,6 +5,7 @@ import './App.css';
 
 //Routes
 import About from './Compnents/AboutUs'
+import CertifiedCoach from './Compnents/Certified-nlp-practitioner-coach'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/about-us" element={<About/>}></Route>
+          <Route path="/certified-nlp-practitioner-coach" element={<CertifiedCoach/>}></Route>
         </Routes>
       </BrowserRouter>
     </div>
