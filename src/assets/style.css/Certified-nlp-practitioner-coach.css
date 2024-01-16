@@ -11,19 +11,22 @@
 
 body {
   font-family: Ubuntu, sans-serif;
-  ;
+  overflow-x: hidden;
   font-size: 15px;
   line-height: 26px;
   font-weight: 400;
 }
 
 h1 {
+    text-align: center;
+  font-family: Tahoma, Arial, sans-serif;
+  color:#180909;
+  margin: 30px 0;
   font-family: Ubuntu;
   font-size: 40px;
   line-height: 44px;
   font-weight: 500;
 }
-
 h2 {
   font-family: Ubuntu, sans-serif;
   ;
@@ -63,12 +66,7 @@ h6 {
   line-height: 14px;
   font-weight: 500;
 }
-h1 {
-  text-align: center;
-  font-family: Tahoma, Arial, sans-serif;
-  color:#180909;
-  margin: 80px 0;
-}
+
 
 .certified h3 {
   color: black;
@@ -102,6 +100,9 @@ h1 {
   width: 1250px !important;
 
 }
+h2 {
+  text-align: center;
+}
 h3 {
   color: black;
 }
@@ -114,7 +115,7 @@ h3 {
 }
 
 .cont {
-  padding: 30px 1em 30px 1em;
+  padding: 20px 10px 30px 10px;
   text-align: left;
   height: '300px';
   width: '100%';
@@ -130,4 +131,42 @@ h3 {
   margin: 15px 0;
   
   
+}
+
+.vc_toggle_title {
+  margin-top: 20px;
+  text-align: justify;
+  margin-left: 50px
+}
+
+
+.anlp {
+    margin-top: 250px;
+    text-align: left;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.description {
+  
+    text-align: 'center';
+    font-style: 500;
+    font-family: 'Ubuntu, sans-serif';
+    font-size: '16px'
+  
+}
+.buttonStyle {
+    min-width: '250px';
+    color: '#ffffff';
+    min-height: '60px';
+    border-radius: '0';
+    text-align: 'center';
+    background: '#435494';
+    cursor: 'pointer';
+    border: 'solid';
+    padding: '10px 30px';
+    font: 'normal normal normal 16px/1.5em'
+}
+
+.font_9 {
+  text-align: left;
 }
