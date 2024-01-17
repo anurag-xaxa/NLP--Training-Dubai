@@ -2,7 +2,8 @@ import React from "react";
 import { useState } from 'react';
 // import Button from 'react-bootstrap/Button';
 import Collapse from 'react-bootstrap/Collapse';
-import '../assets/style.css/Certified-nlp-practitioner-coach.css'
+import '../assets/style.css/CertifiedCoach.css'
+
 
 const CertifiedCoach = () => {
     const [open1, setOpen1] = useState(false);
@@ -578,7 +579,7 @@ const CertifiedCoach = () => {
 
                 </div>
                 <br />
-                <div className="cont">
+                <div className="container-certified-coach">
                     <h2>PROGRAMMING YOU FOR SUCCESS</h2>
                     <p style={{ color: 'white', fontSize: '16px', fontFamily: 'Ubuntu, sans-serif' }}>
                         NLP can enhance your existing communication skills to help you have a greater impact, create effortless change, and further enhance your ability to connect with people. NLP helps you improve your ability to speak persuasively and listen to others to make them feel they are understood.
