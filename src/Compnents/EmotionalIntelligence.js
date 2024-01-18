@@ -97,7 +97,7 @@ const EmotionalIntelligence = () => {
             <div className="coach-container">
                 <h1>Emotional Intelligence Coach Practitioner</h1>
                 <h2 className="font_0_0">Certified Program (ICF & IAPCCT approved)</h2>
-                <br/>
+                <br />
                 <button className="btn btn-primary">Register Now</button>
 
                 <div className="cont">
@@ -130,7 +130,7 @@ const EmotionalIntelligence = () => {
             <div>
                 <h2 style={{ textAlign: 'center', marginTop: '20px', color: 'black', fontSize: '28px' }}><strong>Program Content</strong></h2>
                 <div className="row">
-                    <div className="col-lg-4" style={{textAlign:'left', paddingLeft:'30px'}}>
+                    <div className="col-lg-4" style={{ textAlign: 'left', paddingLeft: '30px' }}>
                         <ul>
                             <li>What is EI</li>
                             <li>Competencies of EI</li>
@@ -142,7 +142,7 @@ const EmotionalIntelligence = () => {
                             <li>Human Brain for a Coach and Coaching interventions</li>
                         </ul>
                     </div>
-                    <div className="col-lg-3" style={{textAlign:'left'}}>
+                    <div className="col-lg-3" style={{ textAlign: 'left' }}>
                         <ul>
                             <li>Self-Awareness</li>
                             <li>Affect Labeling</li>
@@ -156,7 +156,7 @@ const EmotionalIntelligence = () => {
                             <li>Building trust</li>
                         </ul>
                     </div>
-                    <div className="col-lg-4" style={{textAlign:'left'}}>
+                    <div className="col-lg-4" style={{ textAlign: 'left' }}>
                         <ul>
                             <li>Emotional Auditing and Neuroscience mapping for self-coaching and coaching others</li>
                             <li>Emotional Style Assessment and Neural Correlation</li>
@@ -264,7 +264,7 @@ const EmotionalIntelligence = () => {
                 <div className="col-lg-6">
                     <p><strong>Incourse Bonus</strong></p>
                     <h2 style={{ textAlign: 'center' }}><strong>Community Support</strong></h2>
-                    <p style={{textAlign:'justify', marginRight:'30px'}}>Yes, this is just for you as a token of appreciation for joining our EI tribe. You’ll be part of a special PRIVATE community interacting with fellow participants through a closed WhatsApp Group and FREE to attend Quarterly Meetups.</p>
+                    <p style={{ textAlign: 'justify', marginRight: '30px' }}>Yes, this is just for you as a token of appreciation for joining our EI tribe. You’ll be part of a special PRIVATE community interacting with fellow participants through a closed WhatsApp Group and FREE to attend Quarterly Meetups.</p>
                     <img
                         height="120"
                         width="166"
@@ -375,10 +375,10 @@ const EmotionalIntelligence = () => {
                 <p style={{ textAlign: 'center', paddingTop: '30px' }}>If you’re excited by the potential of transforming your life, we invite you to enroll in this program now.<br />
                     You get intensive training, powerful resources, and more.</p>
                 <p style={{ textAlign: 'center' }}>So go ahead. ENROLL NOW and get started.</p>
-                <br/><button className="btn btn-primary">Register Now</button>
+                <br /><button className="btn btn-primary">Register Now</button>
             </div>
             <br />
-            
+
 
 
 
