@@ -1,0 +1,13 @@
+.content {
+    width: auto;
+}
+.western {
+    text-align: justify;
+    padding: 5px 30px;
+    font-family: sans-serif;
+}
+
+ul {
+    text-align:left;
+    padding: 0px 50px;
+}

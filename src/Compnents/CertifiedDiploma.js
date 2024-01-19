@@ -174,13 +174,13 @@ const CertifiedDiploma = () => {
             <h1 style={{color:'red', fontWeight:'bold'}}>About the Trainer</h1>
             <div className="about_the-training">
                 <div className="row">
-                    <div className="col-lg-3">
+                    <div className="col-sm-12 col-md-4 col-lg-4">
                         <img
                             height="250px"
                             width="180px"
                             decoding="async"
                             data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/globalguru22.jpg"
-                            className="lazyload"
+                            className="img-fluid"
                             src="VP_Menon.jpg"
                             alt="fullsize_anim"
                         />
@@ -192,14 +192,14 @@ const CertifiedDiploma = () => {
                             />
                         </noscript>
                     </div>
-                    <div className="col-lg-9">
-                        <h3 style={{ textAlign: 'left' }}>VALSAKUMAR P MENON</h3>
+                    <div className="col-sm-12 col-md-8 col-lg-8">
+                        <h3 style={{ textAlign: 'left'}}>VALSAKUMAR P MENON</h3>
                         <p style={{ color: 'red', textAlign: 'left', fontSize: '20px' }}>Trainer | Success Coach | Business Start-up Mentor</p>
-                        <p style={{ textAlign: 'left', paddingRight:'20px' }}>Valsakumar P Menon or VP as he is popularly known is a Trainer, Coach &amp; Mentor. He comes with over two decades of corporate experience and 15+ years of being a trainer &amp; coach. He is also an entrepreneur running his own business in training &amp; coaching since 2013.</p>
-                        <p style={{ textAlign: 'left', paddingRight:'20px' }}>VP is a ICF PCC (Professional Certified Coach from the International Coaching Federation). He is also a Certified NLP Master Practitioner &amp; Coach, Certified NLP Trainer, Certified Group Coach, and an Emotional Intelligence Coach Practitioner. VP is also a Certified International Professional Training Consultant, an APICS CSCP and a Distinguished Toastmaster from Toastmasters International. He has also been trained in Positive Psychology, Hypnosis &amp; Neuroscience.</p>
-                        <p style={{ textAlign: 'left', paddingRight:'20px' }}>As a coach VP’s strength is in working with people through individual coaching and facilitating leadership programs. This involves enabling people to increase self-awareness, effect desired change and by working in partnership enable individuals, teams, and organisations to flourish. VP believes that when people have purpose, feel engaged and empowered, they produce their best work.</p>
-                        <p style={{ textAlign: 'left', paddingRight:'20px' }}>VP also empowers people by helping them to get trained and certified via various accredited training and certified programs and also guiding them to become entrepreneurs and start their own businesses ventures.</p>
-                        <p style={{ textAlign: 'left', paddingRight:'20px' }}>VP firmly believes that it’s never too late to start improving and adding value to your life and hence loves the quote from Carl Bard which says, &#8220;Though no one can go back and make a brand-new start, anyone can start from now and make a brand-new ending&#8221;. He strongly believes in the power of sincerity &amp; humour and hence advocates the practice of living life sincerely and focussing on the funny side of life. He is currently based in Dubai, UAE and has been living here since 1999.</p>
+                        <p style={{ textAlign: 'justify', paddingRight:'20px' }}>Valsakumar P Menon or VP as he is popularly known is a Trainer, Coach &amp; Mentor. He comes with over two decades of corporate experience and 15+ years of being a trainer &amp; coach. He is also an entrepreneur running his own business in training &amp; coaching since 2013.</p>
+                        <p style={{ textAlign: 'justify', paddingRight:'20px' }}>VP is a ICF PCC (Professional Certified Coach from the International Coaching Federation). He is also a Certified NLP Master Practitioner &amp; Coach, Certified NLP Trainer, Certified Group Coach, and an Emotional Intelligence Coach Practitioner. VP is also a Certified International Professional Training Consultant, an APICS CSCP and a Distinguished Toastmaster from Toastmasters International. He has also been trained in Positive Psychology, Hypnosis &amp; Neuroscience.</p>
+                        <p style={{ textAlign: 'justify', paddingRight:'20px' }}>As a coach VP’s strength is in working with people through individual coaching and facilitating leadership programs. This involves enabling people to increase self-awareness, effect desired change and by working in partnership enable individuals, teams, and organisations to flourish. VP believes that when people have purpose, feel engaged and empowered, they produce their best work.</p>
+                        <p style={{ textAlign: 'justify', paddingRight:'20px' }}>VP also empowers people by helping them to get trained and certified via various accredited training and certified programs and also guiding them to become entrepreneurs and start their own businesses ventures.</p>
+                        <p style={{ textAlign: 'justify', paddingRight:'20px' }}>VP firmly believes that it’s never too late to start improving and adding value to your life and hence loves the quote from Carl Bard which says, &#8220;Though no one can go back and make a brand-new start, anyone can start from now and make a brand-new ending&#8221;. He strongly believes in the power of sincerity &amp; humour and hence advocates the practice of living life sincerely and focussing on the funny side of life. He is currently based in Dubai, UAE and has been living here since 1999.</p>
                     </div>
                 </div>
             </div>

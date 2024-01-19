@@ -26,11 +26,14 @@
 }
 
 .about_the-training {
+  
   background-color: wheat;
-  height: 850px;
-  width: 80%;
-  margin-left: 100px;
-  padding-top: 80px;
+  padding-top: 30px; 
+  padding-left: 20px;
+  
+  width: 100%;
+  margin: 20px 0px;
+  
   
 }
 
