@@ -20,8 +20,6 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-
-
 body {
 	font-family: Ubuntu, sans-serif;;
 	font-size: 15px;
@@ -36,7 +34,7 @@ h1 {
 }
 h2 {
 	font-family: Ubuntu, sans-serif;;
-	font-size: 28px;
+	font-size: 1.4rem;
 	line-height: 31px;
 	font-weight: 500;
 }
@@ -48,13 +46,13 @@ h3 {
 }
 h4 {
 	font-family: Ubuntu, sans-serif;;
-	font-size: 16px;
+	font-size:1.2rem;
 	line-height: 18px;
 	font-weight: 500;
 }
 h5 {
 	font-family: Ubuntu, sans-serif;;
-	font-size: 14px;
+	font-size: 1.1rem;
 	line-height: 16px;
 	font-weight: 500;
 }
@@ -75,4 +73,34 @@ h6 {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
 }
+.founders {
+	margin-top: 40px;
+	padding-left: 30px;
+}
 
+a{
+	text-decoration: none;
+	color: #b21f27;
+}
+.western{
+	text-align: center;
+	font-size: 1.4rem;
+	
+}
+#paragraph{
+	font-size: 17px;
+	text-align: justify;
+	padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+	.western {
+	  width: 100%;
+	}
+  }
+
+  @media screen and (max-width: 600px) {
+	.western {
+	  width: 100%;
+	}
+  }

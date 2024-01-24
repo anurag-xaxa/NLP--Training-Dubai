@@ -1,88 +1,78 @@
+.font_0_0 {
 
-.font_0_0{
-    
-    font-family: playfair display,serif;
-    font-style: italic;
-    font-size: 30px;
-    margin-top:-20px;
+   font-family: playfair display, serif;
+   font-style: italic;
+   font-size: 30px;
+   margin-top: -20px;
 }
 .font_9 {
-    width: auto;
-    font-style: italic;
-    text-align: justify;  
-    
+   width: auto;
+   font-style: italic;
+   text-align: justify;
+
+}
+.cont {
+   margin: 20px;
+   text-align: left;
+   width: auto;
+   background-color: rgb(13, 56, 92);
+   color: #ffffff;
+   font: normal normal normal 18px/1.18em proxima-n-w01-reg, sans-serif;
+   line-height: 1.5;
 }
 
-/* .buttonStyle {
-    min-width: '250px';
-    min-height: '60px';
-    border-radius: '0';
-    text-align: 'center';
-    background-color: '#435494';
-    cursor: 'pointer';
-    border: 'solid';
-    padding: '10px 30px';
-    color: '#ffffff';
-    font: 'normal normal normal 16px/1.5em';
-  } */
+.coach-container {
+   margin-left: 30px;
+   margin-right: 30px;
+}
 
-  .cont {
-    margin:20px;
-    text-align: left;
-    width: auto;
-    background-color: rgb(13, 56, 92);
-    color: #ffffff;
-    font: normal normal normal 18px/1.18em proxima-n-w01-reg,sans-serif;
-    line-height: 1.5;
-  }
+.certification-content {
+   text-align: center;
+   color: whitesmoke;
+}
 
-  .coach-container {
-        margin-left: 30px;
-        margin-right: 30px;
-  }
+.col-lg {
+   text-align: left;
+   margin-top: 30px;
+   margin-left: 20px;
+   margin-right: 50px;
+   font-size: 16px;
+}
 
- .certification-content {
-    text-align: center;
-    color: whitesmoke;
- }
- .col-lg {
-    text-align: left;
-    margin-top: 30px;
-    margin-left: 20px;
-    margin-right: 50px;
-    font-size: 16px;
- }
+.emotionale {
+   text-align: 'justify';
 
- .emotionale {
-    text-align:'justify';
-       
- }
+}
 
- /* .Mentor {
-    margin-top: 100px;
-    ;
- } */
+.image {
+   margin: 20px;
+   box-shadow: 5px 5px 10px 10px grey;
+}
 
- .image{
-    margin: 40px;
-    /* padding-top: 20px; */
-    /* border: 1px solid; */
-    box-shadow: 5px 5px 10px 10px grey;
- }
-
- .program-content{
+.program-content {
    text-align: center;
    margin-top: 20px;
    color: black;
    font-size: 28px;
- }
+}
 
 .course {
    font-size: 23px;
    font-weight: bold;
 }
 
-.advantage-content{
+.advantage-content {
    margin: 20px 20px;
 }
- 
+
+
+@media screen and (max-width: 992px) {
+   #content {
+     width: 100%;
+   }
+ }
+/* @media screen and (max-width: 600px) {
+   #content {
+     width: 100%;
+   }
+ } */

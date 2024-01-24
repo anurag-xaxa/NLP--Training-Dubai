@@ -1,0 +1,64 @@
+.entry-banner-img{
+    background-image: url("/public/inspired.jpg");
+    background-size: cover;
+    /* height: 60vh; */
+}
+
+.img-content {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 40px;
+    padding: 20px;
+    font-family: sans-serif ;
+    /* background-color: rgb(rgb(102, 89, 89)); */
+}
+.youth {
+    text-align: left;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.empower{
+    padding: 30px;
+    font-size: 32px;
+    color: rgb(168, 168, 62);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.heading {
+    text-align: left;
+    font-family: Verdana, sans-serif;
+    /* margin: 20px 40px; */
+    padding: 2rem;
+}
+.heading-h3 {
+    font-size: 25px;
+    font-family:sans-serif;
+    color: rgb(196, 53, 53);
+    font-weight: 600;
+}
+.heading-h4 {
+    padding-top: 60px;
+    font-size: 25px;
+    font-family:sans-serif;
+    color: rgb(196, 53, 53);
+    font-weight: 600;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.vertical-line {
+    border-left: 7px solid #4e4d47; /* Adjust color and thickness as needed */
+    height: 200px; /* Adjust height as needed */
+    
+    
+  }
+  .what-learn {
+    padding-left: 40px;
+  }
+.brand {
+    text-align: center;
+    padding: 20px;
+}

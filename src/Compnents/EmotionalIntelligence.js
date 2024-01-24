@@ -179,10 +179,10 @@ const EmotionalIntelligence = () => {
 
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-6">
+                    <div className="col-sm-12 col-md-6 col-lg-6" style={{paddingRight:'30px 30px'}}>
                         <img 
                             height="500px"
-                            width="420px"
+                            width="400px"
                             decoding="async"
                             data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/globalguru22.jpg"
                             className="lazyload"
@@ -195,10 +195,11 @@ const EmotionalIntelligence = () => {
             <div>
 
                 <div className="row">
-                    <div className="col-sm-12 col-md-6 col-lg-6">
+                    <div className="col-sm-12 col-md-6 col-lg-6" style={{paddingTop:'20px'}}>
                         <img
-                            
-                            width="500px"
+                           
+                            height="500px"
+                            width="400px"      
                             decoding="async"
                             data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/globalguru22.jpg"
                             className="img-fluid"
@@ -206,7 +207,7 @@ const EmotionalIntelligence = () => {
                             alt="3imgpsh_fullsize_anim.jpg"
                         />
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-6">
+                    <div className="col-sm-12 col-md-6 col-lg-6" style={{paddingTop:'20px'}}>
                         <p><span className="course">Course Benefits</span></p>
                         <ul className="achiv">
                             <li>Achieving greater personal awareness</li>
@@ -336,7 +337,7 @@ const EmotionalIntelligence = () => {
                 <div className="container-fluid">
 
                     <div className="row">
-                        <div className="col-sm-12 col-md-6 col-lg-6" >
+                        <div className="col-sm-10 col-md-6 col-lg-6" >
                             <img
                                 decoding="async"
                                 data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/02/CCE-01.jpg"
@@ -345,7 +346,7 @@ const EmotionalIntelligence = () => {
                                 alt="Logo 10"
                             />
                         </div>
-                        <div className="col-sm-12 col-md-6 col-lg-6" style={{ textAlign:'justify', padding:'20px' }}>
+                        <div className="col-sm-10 col-md-6 col-lg-6" style={{ textAlign:'justify', padding:'20px' }}>
                             <p>Vikram Dhar is an internationally acclaimed ICF Coach Trainer and Mentor Coach and an NLP Trainer &amp; Coach who facilitates NLP and Coaching programs across the globe. He is also a Licensed Behavioral Master Trainer, Licensed Meta-NLP Trainer certified by Michael Hall (co-founder of Neuro-Semantics) and Certified NLP Trainer (ABNLP, USA) and Member NLP Trainer (ANLP, UK). Vikram is also a Licensed NLP Coach (Certified by Richard Bandler, co-founder of NLP) and has attended the International NLP Coach &amp; New Code Practitioner training directly with John Grinder (co-founder of NLP).</p>
                             <p>​Vikram has been listed by Global Gurus in the World&#8217;s Top 30 NLP Professionals for 2021, 2022 &amp; 2023. He has also been listed among the top 100 coaches globally both in 2017, 2020 and 2023 and was presented with the “Talent Award” during the world coaching summit for his tremendous contribution to the world of coaching. He has co-authored the book &#8220;The Ultimate Coaching&nbsp;Guide&#8221;.</p>
                             <p>He is the founder of “NLP Coaching Academy”, holds a Master’s Degree in Computer Science from Bradley University, USA and is a modern day Business Growth Hacker and a Business Coach. In his corporate career, he has worked with market leaders in many roles, including but not limited to IT Risk Management, Cyber Security, Business Sales, Leadership &amp; Team Development and Leadership Coaching for over a decade and half.</p>

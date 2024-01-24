@@ -11,7 +11,8 @@ import CertifiedDiploma from './Compnents/CertifiedDiploma.js';
 import CertifiedNlpMaster from './Compnents/CertifiedNlpMaster.js';
 import AdvancedDiploma from './Compnents/AdvancedDiploma.js';
 import CertifiedWellnessCoach from './Compnents/CertifiedWellnessCoach.js';
-import CertifiedLifeCoaching from './Compnents/CertifiedLifeCoaching.js'
+import CertifiedLifeCoaching from './Compnents/CertifiedLifeCoaching.js';
+import InspiredMinds from './Compnents/InspiredMinds.js';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/advanced-diploma-in-nlp-coaching" element={<AdvancedDiploma/>}></Route>
           <Route path="/certified-wellness-coach" element={<CertifiedWellnessCoach/>}></Route>
           <Route path="/certified-life-coaching" element={<CertifiedLifeCoaching/>}></Route>
+          <Route path="/yes-to-inspired-minds" element={<InspiredMinds/>}></Route>
           
         </Routes>
       </BrowserRouter>
