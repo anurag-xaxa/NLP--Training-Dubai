@@ -1,0 +1,72 @@
+.banner-img{
+    background-image: url("/public/banner.jpeg");
+    background-size: cover;
+    height: 80vh;
+}
+.background{
+    background-image: url("/public/meeting-1.jpg");
+    background-size: cover;
+    height: 60vh;
+    margin-top: 40px;
+}
+
+.entry-title {
+    font-size: 3.5rem;
+    color: whitesmoke;
+}
+.program-content {
+    background-color: steelblue;
+    width: 100%;
+}
+.logo-img{
+    padding-top: 15px;
+    
+}
+
+.trainer {
+    background-color: rgb(190, 213, 233);
+    width: 80%;
+    margin-top: 5rem;
+    margin-left: 100px;
+    border-radius: 18px;
+    box-shadow: 2px 2px 5px 5px grey;
+}
+.new-trainer{
+    border-radius: 50%;
+    
+       
+}  
+.trainer1 {
+    padding-top: 50px;
+}
+.p-heading {
+    margin-top: 30px;
+    font-size: 2rem;
+    color: rgb(9, 34, 58);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.p-content {
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    text-align: justify;
+}
+
+.icons-content{
+    padding: 2.2rem;
+}
+.h4-content{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(88, 79, 58);
+    font-weight: bold;
+}
+.card {
+    width: 16rem;
+    padding-top:20px;
+    border-radius: 30px;
+    margin-left: 20px;
+    background-color: rgb(190, 213, 233);
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}

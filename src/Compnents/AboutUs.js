@@ -26,6 +26,12 @@ const AboutUs = () => {
                     </div>
                 </div>
             </div>
+            <div>
+            <p class="western" ><a href="https://www.nlptrainingdubai.com/"><strong>Enabling Transformation!</strong></a>
+            When we liberate ourselves from the unconstructive beliefs forced upon us by our own selves and others that imprison us, we allow into this space, real life transformational experiences. These experiences will raise us to our full potential, increase our understanding, allow us to take control of our self. Only when we have this control can we take responsibility to truly support others and bring about a transformation in their lives.”
+            </p>
+            
+            </div>
             {/* <div id="primary" className="content-area">
                 <div className="container">
                     <div className="row">
@@ -238,8 +244,8 @@ const AboutUs = () => {
                 </p>
             </div> */}
             <div className="founders">
-                <div class="row">
-                    <div class="col-sm-4" style={{padding:'20px'}}>
+                <div className="row">
+                    <div className="col-sm-4" style={{padding:'20px'}}>
                         <img
                             fetchpriority="high"
                             decoding="async"
@@ -259,7 +265,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-8">
+                    <div className="col-sm-8">
                         <h2 style={{ fontSize: '30px', color: '#b21f27', padding: '20px' }}>Uma Radhakrishnan</h2>
 
                         <p id="paragraph">
@@ -290,8 +296,8 @@ const AboutUs = () => {
 
             </div>
             <div className="founders">
-                <div class="row">
-                    <div class="col-sm-4" style={{padding:'20px'}}>
+                <div className="row">
+                    <div className="col-sm-4" style={{padding:'20px'}}>
                         <img
                             fetchpriority="high"
                             decoding="async"
@@ -312,7 +318,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-8">
+                    <div className="col-sm-8">
                         <h2 style={{ fontSize: '30px', color: '#b21f27', padding: '20px' }}>Valsakumar P. Menon</h2>
 
                         <p id="paragraph">Valsakumar P Menon or VP as he is popularly known is a motivational speaker, trainer &amp; coach. He comes with over two decades of corporate experience, having worked with multinational organizations in India and the Middle East, in the fields of Training, Supply Chain Management, International trade &amp; business development, Operations Management &amp; Quality Management. His career with the Multinationals has given him exposure to markets spanning India, Far East, Middle East, Africa, Europe and America.</p>
@@ -324,8 +330,8 @@ const AboutUs = () => {
             </div>
             <div className="founders">
 
-                <div class="row">
-                    <div class="col-sm-4" style={{padding:'20px'}}>
+                <div className="row">
+                    <div className="col-sm-4" style={{padding:'20px'}}>
                         <img
                             fetchpriority="high"
                             decoding="async"
@@ -346,7 +352,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-8">
+                    <div className="col-sm-8">
                         <h2 style={{ fontSize: '30px', color: '#b21f27', padding: '20px' }}>Vikram Dhar</h2>
                         <p id="paragraph">Mr. Vikram Dhar is an internationally acclaimed NLP Trainer who facilitates NLP and Coaching programs across the globe. He is also a Licensed Behavioral Master Trainer. Vikram is an ICF-Mentor Coach, Licensed Meta-NLP Trainer certified by Michael Hall (co-founder of Neuro-Semantics) and Certified NLP Trainer (ABNLP, USA) and Member NLP Trainer (ANLP, UK). Vikram is also a Licensed NLP Coach (Certified by Richard Bandler, co-founder of NLP) and has attended the International NLP Coach &amp; New Code Practitioner training directly with John Grinder (co-founder of NLP). Vikram holds a Master’s Degree in Computer Science from Bradley University, Illinois, USA and is a modern day Business Growth Hacker and a Business Coach. In his corporate career, he has worked with market leaders in many roles – IT Risk and Business Advisor, Sales Leader and Coach, for over a decade and half.</p>
                     </div>

@@ -13,6 +13,7 @@ import AdvancedDiploma from './Compnents/AdvancedDiploma.js';
 import CertifiedWellnessCoach from './Compnents/CertifiedWellnessCoach.js';
 import CertifiedLifeCoaching from './Compnents/CertifiedLifeCoaching.js';
 import InspiredMinds from './Compnents/InspiredMinds.js';
+import CertifiedWellbeingCoach from './Compnents/CertifiedWellbeingCoach.js';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/certified-wellness-coach" element={<CertifiedWellnessCoach/>}></Route>
           <Route path="/certified-life-coaching" element={<CertifiedLifeCoaching/>}></Route>
           <Route path="/yes-to-inspired-minds" element={<InspiredMinds/>}></Route>
+          <Route path="/certified-wellbeing-coach" element={<CertifiedWellbeingCoach/>}></Route>
           
         </Routes>
       </BrowserRouter>
