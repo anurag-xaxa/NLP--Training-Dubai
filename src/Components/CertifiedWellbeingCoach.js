@@ -1,5 +1,7 @@
 import React from "react";
+import Carousel from 'react-bootstrap/Carousel';
 import '../assets/style.css/CertifiedWellbeingCoach.css';
+import OwlCarousel from '../Components/Owl'
 import img1 from '../assets/images/CCE-01.jpg';
 import img2 from '../assets/images/Untitled-design-1.png';
 import img3 from '../assets/images/iapcct-02.jpg';
@@ -24,6 +26,16 @@ import img21 from '../assets/images/nlp-img (1).jpg';
 import img22 from '../assets/images/nlp-img-1.png';
 import img23 from '../assets/images/csa-02.png';
 import img24 from '../assets/images/ICF-logos-06.png';
+import Screenshot_10 from '../assets/images/Screenshot_10.png'
+import Screenshot_9 from '../assets/images/Screenshot_9.png'
+import Screenshot_8 from '../assets/images/Screenshot_8.png'
+import Screenshot_7 from '../assets/images/Screenshot_7.png'
+import Screenshot_6 from '../assets/images/Screenshot_6.png'
+import Screenshot_5 from '../assets/images/Screenshot_5.png'
+import Screenshot_4 from '../assets/images/Screenshot_4.png'
+import Screenshot_3 from '../assets/images/Screenshot_3.png'
+import Screenshot_2 from '../assets/images/Screenshot_2.png'
+import Screenshot_1 from '../assets/images/Screenshot_1.png'
 
 
 const CertifiedWellbeingCoach = () => {
@@ -37,14 +49,14 @@ const CertifiedWellbeingCoach = () => {
                         <p style={{ color: 'white', fontSize: '20px', }}>Radisson Blu,Hotel, Dubai Deira Creek</p>
                         <p style={{ color: 'white', fontSize: '20px', }}>8, 9, 10, &#,38; 11 Feb 2024  |  9:00 AM &#8211; 05:00 PM</p>
                         <p style={{ color: 'white', fontSize: '20px', }}>An ICF &amp;,IAPCCT approved program</p>
-                        <div style={{ textAlign: 'center' }}><a className="sg-popup-id-7955" style={{ color: 'white', backgroundColor: '#b21f27', padding: '16px 40px', borderRadius: '50px' }} href="#">Register Now</a></div>
+                        <div style={{ textAlign: 'center', margin: '50px' }}><a className="sg-popup-id-7955" style={{ color: 'white', backgroundColor: '#b21f27', padding: '16px 40px', borderRadius: '50px' }} href="#">Register Now</a></div>
 
                     </div>
                 </div>
             </div>
             <div className="container" style={{ margin: '40px' }}>
                 <div className="row">
-                    <div className="col-sm">
+                    <div className="col-sm-12 col-md-4 col-lg-4">
                         <img
                             width="150"
                             height="100"
@@ -58,7 +70,7 @@ const CertifiedWellbeingCoach = () => {
                             src={img1}
                         />
                     </div>
-                    <div className="col-sm">
+                    <div className="col-sm-12 col-md-4 col-lg-4">
                         <img
                             width="150"
                             height="100"
@@ -72,7 +84,7 @@ const CertifiedWellbeingCoach = () => {
                             src={img2}
                         />
                     </div>
-                    <div className="col-sm">
+                    <div className="col-sm-12 col-md- col-lg-4">
                         <img
                             width="150"
                             height="100"
@@ -88,8 +100,41 @@ const CertifiedWellbeingCoach = () => {
                     </div>
 
                 </div>
-            </div >
-            <div>
+            </div>
+            {/* -------------------- Program Overview Start-------------------------------------*/}
+            <div className="program-background-image">
+
+                <div className="container">
+                    <div className="entry-banner-content">
+                        <div>
+                            <img
+                                width="150"
+                                height="100"
+                                padding="40px"
+                                alt=""
+                                decoding="async"
+                                fetchpriority="high"
+                                data-srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg 1000w, https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled-300x111.jpeg 300w"
+                                data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg"
+                                data-sizes="(max-width: 1000px) 100vw, 1000px"
+                                className="img-responsive wp-post-image lazyload"
+                                src={img4}
+                            />
+                            <p className="p-heading"><strong>Program Overview</strong></p>
+                            <p className="p-content"><strong>This ICF & IAPCCT approved “Certified Wellbeing Coach & Mindfulness Practitioner” program</strong> is designed to provide evidence-based mindfulness tools to promote mental well-being and resilience.</p>
+                            <p className="p-content">This experiential program offers a comprehensive understanding of mindfulness practices, and the opportunity to develop self-regulation skills.</p>
+                        </div>
+                        {/* <h1 className="entry-title">Certified Wellbeing Coach &amp; <br /><br />Mindfulness Practitioner</h1>
+                        <p style={{ color: 'white', fontSize: '20px', }}>Radisson Blu,Hotel, Dubai Deira Creek</p>
+                        <p style={{ color: 'white', fontSize: '20px', }}>8, 9, 10, &#,38; 11 Feb 2024  |  9:00 AM &#8211; 05:00 PM</p>
+                        <p style={{ color: 'white', fontSize: '20px', }}>An ICF &amp;,IAPCCT approved program</p> */}
+                        <div style={{ textAlign: 'center', margin: '50px' }}><a className="sg-popup-id-7955" style={{ color: 'white', backgroundColor: '#b21f27', padding: '16px 40px', borderRadius: '50px' }} href="#">Register Now</a></div>
+
+                    </div>
+                </div>
+            </div>
+            {/* --------------------------Program Overview End--------------------------------------- */}
+            {/* <div>
                 <img
                     width="150"
                     height="100"
@@ -106,9 +151,9 @@ const CertifiedWellbeingCoach = () => {
                 <p className="p-heading"><strong>Program Overview</strong></p>
                 <p className="p-content"><strong>This ICF & IAPCCT approved “Certified Wellbeing Coach & Mindfulness Practitioner” program</strong> is designed to provide evidence-based mindfulness tools to promote mental well-being and resilience.</p>
                 <p className="p-content">This experiential program offers a comprehensive understanding of mindfulness practices, and the opportunity to develop self-regulation skills.</p>
-            </div>
+            </div> */}
             <div className="row">
-                <div className="col-sm-12 col-md-8 col-lg-7">
+                <div className="col-sm-12 col-md-8 col-lg-8">
                     <img
                         width="120"
                         height="90"
@@ -128,11 +173,10 @@ const CertifiedWellbeingCoach = () => {
                     <p className="p-content">This certified program’s goal is to take learners on an experiential journey through evidence-based mindfulness tools. Using these tools can provide significant benefits in your personal life. This certification will be extremely useful in your coaching practice, allowing you to help your clients cultivate well-being, deal with setbacks, increase self-awareness, and become happier.</p>
                     <p className="p-content">This program also helps you to get trained and certified to become <strong>“Wellness Ambassadors”</strong> within your organization.</p>
                 </div>
-                <div className="col-sm-12 col-md-4 col-lg-5" style={{ paddingTop: '5rem' }}>
+                <div className="col-sm-12 col-md-4 col-lg-4" style={{ paddingTop: '2rem' }}>
                     <img
-                        width="300"
-                        height="300"
-
+                        width="250"
+                        height="250"
                         alt=""
                         decoding="async"
                         fetchpriority="high"
@@ -143,13 +187,13 @@ const CertifiedWellbeingCoach = () => {
                         src={img5}
                     />
                 </div>
-
             </div>
-            <div>
+            {/* ------------------------ ICONS CONTENT START---------------------------------------------------  */}
+
+            <div style={{ paddingTop: '50px' }}>
                 <img
                     width="120"
                     height="90"
-
                     alt=""
                     decoding="async"
                     fetchpriority="high"
@@ -159,8 +203,7 @@ const CertifiedWellbeingCoach = () => {
                     className="img-responsive wp-post-image lazyload"
                     src={img4}
                 />
-                {/* ------------------------ ICONS CONTENT ---------------------------------------------------  */}
-                <h2 style={{ marginTop: '30px' }}><strong>Program Benefits </strong></h2>
+                <h2 ><strong>Program Benefits</strong></h2>
                 <div className="icons-content">
                     <div className="row">
                         <div className="col-sm-12 col-md-4 col-lg-4">
@@ -259,7 +302,7 @@ const CertifiedWellbeingCoach = () => {
                         </div>
                     </div>
                 </div>
-                <div className="items-content">
+                <div className="icons-content">
                     <div className="row">
                         <div className="col-sm-12 col-md-4 col-lg-4">
                             <img
@@ -344,7 +387,6 @@ const CertifiedWellbeingCoach = () => {
                             <img
                                 width="50"
                                 height="50"
-                                padding="40px"
                                 alt=""
                                 decoding="async"
                                 fetchpriority="high"
@@ -364,7 +406,7 @@ const CertifiedWellbeingCoach = () => {
                             <img
                                 width="50"
                                 height="50"
-                                padding="40px"
+
                                 alt=""
                                 decoding="async"
                                 fetchpriority="high"
@@ -379,7 +421,7 @@ const CertifiedWellbeingCoach = () => {
                     </div>
                 </div>
 
-                {/* ---------------------ICONS CONTENT -------------------------------------------- */}
+                {/* ---------------------ICONS CONTENT END-------------------------------------------- */}
                 <div className="program-content">
                     <div className="bonus-content">
                         <img
@@ -497,13 +539,13 @@ const CertifiedWellbeingCoach = () => {
                         src={img4}
                     />
                     <h1 className="p-heading">Certification | Investment</h1>
-                    <p style={{ fontSize: '19px' }}><strong>Certification:</strong></p>
+                    <p style={{ fontSize: '20px' }}><strong>Certification:</strong></p>
                     <p className="p-content" style={{ textAlign: 'center' }}>1. “Certified Wellbeing Coach” – ICF approved (10 CCE hours)</p>
                     <p className="p-content" style={{ textAlign: 'center' }}> 2. “Certified Mindfulness Practitioner” – IAPCCT approved.
                         (Certificates will be issued from IAPCCT & NLP Coaching Academy. NLP Coaching Academy
                         holds the formal ICF Accreditation.)</p>
                 </div>
-                {/* ------------------------------ CARD -----------------------------------             */}
+                {/* ------------------------------ CARD START-----------------------------------*/}
                 <div>
                     <div className="row">
                         <div className="col-sm-12 col-md-4 col-lg-4">
@@ -511,7 +553,7 @@ const CertifiedWellbeingCoach = () => {
                                 <div className="card-body">
                                     <h3><strong>AED 3500/-</strong></h3>
                                     <p className="card-text">EARLY BIRD 1</p>
-                                    <button type="button" class="btn btn-primary btn-lg">Valid till<br />Dec 20, 2023</button>
+                                    <button type="button" className="btn btn-primary btn-lg">Valid till<br />Dec 20, 2023</button>
 
                                     <a href="#" className="card-link"></a>
                                 </div>
@@ -524,7 +566,7 @@ const CertifiedWellbeingCoach = () => {
                                     <p className="card-text">
                                         EARLY BIRD 2
                                     </p>
-                                    <button type="button" class="btn btn-primary btn-lg">Valid till<br />Jan 20, 2024</button>
+                                    <button type="button" className="btn btn-primary btn-lg">Valid till<br />Jan 20, 2024</button>
                                 </div>
                             </div>
                         </div>
@@ -533,13 +575,13 @@ const CertifiedWellbeingCoach = () => {
                                 <div className="card-body">
                                     <h3 className="card-title"><strong>AED 4900/-</strong></h3>
                                     <p className="card-text">INVESTMENT</p>
-                                    <button type="button" class="btn btn-primary btn-lg">From<br />Jan 21, 2024</button>
+                                    <button type="button" className="btn btn-primary btn-lg">From<br />Jan 21, 2024</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                {/* ------------------------------- CARD ----------------------------------             */}
+                {/* ------------------------------- CARD END---------------------------------- */}
                 <div className="trainer">
                     <div className="trainer1">
                         <img
@@ -571,9 +613,19 @@ const CertifiedWellbeingCoach = () => {
                     </div>
                 </div>
             </div>
+
+            {/* -------------------------- Carousel Start -----------------------------------------               */}
+
+            <div className="col-sm-12 col-md-12 col-lg-12">
+                <div className="carousel">
+                    <div className=""><OwlCarousel /></div>
+                </div>
+            </div>
+
+            {/* -------------------------- Carousel End -------------------------------------------          */}
             <div className="container" style={{ margin: '40px' }}>
                 <div className="row">
-                    <div className="col-sm">
+                    <div className="col-sm-12 col-md-4 col-lg-4">
                         <img
                             width="150"
                             height="100"
@@ -587,7 +639,7 @@ const CertifiedWellbeingCoach = () => {
                             src={img1}
                         />
                     </div>
-                    <div className="col-sm">
+                    <div className="col-sm-12 col-md-4 col-lg-4">
                         <img
                             width="150"
                             height="100"
@@ -601,7 +653,7 @@ const CertifiedWellbeingCoach = () => {
                             src={img2}
                         />
                     </div>
-                    <div className="col-sm">
+                    <div className="col-sm-12 col-md-4 col-lg-4">
                         <img
                             width="150"
                             height="100"
@@ -618,67 +670,68 @@ const CertifiedWellbeingCoach = () => {
                 </div>
             </div >
             <div>
-                <div>
-                    <h1>Slider Comming Soon...</h1>
-                </div>
                 <img
-                    width="500"
-                    height="200"
+                    width="300px"
+                    height="120px"
                     alt=""
                     decoding="async"
                     fetchpriority="high"
                     data-srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg 1000w, https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled-300x111.jpeg 300w"
                     data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg"
                     data-sizes="(max-width: 1000px) 100vw, 1000px"
-                    className="img-responsive wp-post-image lazyload"
+                    className="logo-content"
                     src={img21}
                 />
             </div>
-            <div class="row">
-                <div class="col">
-                <img
-                    width="150"
-                    height="100"
-                    alt=""
-                    decoding="async"
-                    fetchpriority="high"
-                    data-srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg 1000w, https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled-300x111.jpeg 300w"
-                    data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg"
-                    data-sizes="(max-width: 1000px) 100vw, 1000px"
-                    className="img-responsive wp-post-image lazyload"
-                    src={img22}
-                />
+            <div className="row">
+                <div className="col-sm-12 col-md-4 col-lg-4">
+                    <img
+                        width="150"
+                        height="100"
+                        alt=""
+                        decoding="async"
+                        fetchpriority="high"
+                        data-srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg 1000w, https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled-300x111.jpeg 300w"
+                        data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg"
+                        data-sizes="(max-width: 1000px) 100vw, 1000px"
+                        className="img-responsive wp-post-image lazyload"
+                        src={img22}
+                    />
                 </div>
-                <div class="col">
-                <img
-                    width="150"
-                    height="100"
-                    alt=""
-                    decoding="async"
-                    fetchpriority="high"
-                    data-srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg 1000w, https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled-300x111.jpeg 300w"
-                    data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg"
-                    data-sizes="(max-width: 1000px) 100vw, 1000px"
-                    className="img-responsive wp-post-image lazyload"
-                    src={img23}
-                />
+                <div className="col-sm-12 col-md-4 col-lg-4">
+                    <img
+                        width="150"
+                        height="100"
+                        alt=""
+                        decoding="async"
+                        fetchpriority="high"
+                        data-srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg 1000w, https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled-300x111.jpeg 300w"
+                        data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg"
+                        data-sizes="(max-width: 1000px) 100vw, 1000px"
+                        className="img-responsive wp-post-image lazyload"
+                        src={img23}
+                    />
                 </div>
-                <div class="col">
-                <img
-                    width="150"
-                    height="100"
-                    alt=""
-                    decoding="async"
-                    fetchpriority="high"
-                    data-srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg 1000w, https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled-300x111.jpeg 300w"
-                    data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg"
-                    data-sizes="(max-width: 1000px) 100vw, 1000px"
-                    className="img-responsive wp-post-image lazyload"
-                    src={img24}
-                />
+                <div className="col-sm-12 col-md-4 col-lg-4">
+                    <img
+                        width="150"
+                        height="100"
+                        alt=""
+                        decoding="async"
+                        fetchpriority="high"
+                        data-srcset="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg 1000w, https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled-300x111.jpeg 300w"
+                        data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2023/05/Untitled.jpeg"
+                        data-sizes="(max-width: 1000px) 100vw, 1000px"
+                        className="img-responsive wp-post-image lazyload"
+                        src={img24}
+                    />
                 </div>
             </div>
-
+            <div className="button-content">
+                <div style={{ textAlign: 'center', paddingTop: '40px' }}>
+                    <a style={{ color: 'white', background: '#b21f27', padding: '16px 40px', borderRadius: '50px' }} href="#">Register Now</a>
+                </div>
+            </div>
         </>
     )
 }

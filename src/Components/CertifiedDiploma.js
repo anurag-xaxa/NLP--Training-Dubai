@@ -125,9 +125,6 @@ const CertifiedDiploma = () => {
                     <Carousel.Item >
                         <h3 className="carousel-title" >Manoj Ramchand Khiara - </h3>
                         <div className="carousel-content" >VP Menon is a powerhouse of immense knowledge. He is cool, jolly, and very motivating teacher.</div>
-
-
-
                     </Carousel.Item>
                     <Carousel.Item>
                         <h3 className="carousel-title" >Amit Powar -
@@ -159,13 +156,11 @@ const CertifiedDiploma = () => {
 
                             “VP introduced me to the exciting world of NLP. I was lucky to learn under his flagship and get enlightened to this amazing concept.”</div>
 
-
                     </Carousel.Item>
                     <Carousel.Item>
                         <h3 className="carousel-title" >Anand Rajan, Chattered Accountant -
                         </h3>
                         <div className="carousel-content">“Truly awesome learning session. I am positive it will go a long way in my journey of rediscovering myself.”</div>
-
 
                     </Carousel.Item>
                 </Carousel>

@@ -1,8 +1,11 @@
 .banner-img{
     background-image: url("/public/banner.jpeg");
     background-size: cover;
-    height: 80vh;
+    /* height: 100vh; */
+    padding: 15px;
+    
 }
+
 .background{
     background-image: url("/public/meeting-1.jpg");
     background-size: cover;
@@ -11,12 +14,18 @@
 }
 
 .entry-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: whitesmoke;
+    font-family: none;
 }
+.program-background-image{
+    background-image: url('../images/Certified-Wellbeing-background.jpg');
+    margin-left: 10px;
+}
+
 .program-content {
-    background-color: steelblue;
-    width: 100%;
+    background-color: rgb(148, 189, 223);
+    width: auto;
 }
 .logo-img{
     padding-top: 15px;
@@ -25,34 +34,38 @@
 
 .trainer {
     background-color: rgb(190, 213, 233);
-    width: 80%;
-    margin-top: 5rem;
-    margin-left: 100px;
+    width: auto;
+    margin: 1.2rem;  
     border-radius: 18px;
-    box-shadow: 2px 2px 5px 5px grey;
+    box-shadow: 1px 1px 10px 4px grey;
+    
+    
 }
 .new-trainer{
     border-radius: 50%;
-    
-       
+    margin-bottom: 20px;
+    font-size: 20px    
 }  
+
 .trainer1 {
     padding-top: 50px;
+
 }
 .p-heading {
-    margin-top: 30px;
-    font-size: 2rem;
+    margin-top: 20px;
+    font-size: 2.2rem;
     color: rgb(9, 34, 58);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 .p-content {
-    font-size: 1.2rem;
-    padding: 20px 40px;
+    font-size: 1rem;
+    padding: 15px 30px;
     text-align: justify;
 }
 
 .icons-content{
-    padding: 2.2rem;
+    padding: 20px 40px 0px 40px;
+    
 }
 .h4-content{
     font-size: 1.2rem;
@@ -61,12 +74,85 @@
     font-weight: bold;
 }
 .card {
+    display: inline-flex;
     width: 16rem;
     padding-top:20px;
     border-radius: 30px;
-    margin-left: 20px;
+    margin: 10px;
+    /* margin-left: 20px; */
     background-color: rgb(190, 213, 233);
     font-weight: bold;
     font-family: sans-serif;
     
 }
+.carousel{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 40px 40px 0px 40px;
+    /* text-align: justify; */
+    /* height: '100px'; */
+    
+    /* background-color: rgb(170, 189, 201); */
+    color: rgb(173, 169, 169);
+    /* font: normal normal normal 18px/1.18em proxima-n-w01-reg,sans-serif; */
+    /* line-height: 1.5; */
+}
+
+.image-content {
+    height:400px;
+    width:100%;
+    /* border:1px solid; */
+    /* box-shadow: 2px 2px 3px 3px grey; */
+    align-content: center;
+    
+}
+
+.button-content{
+    background-color:lightblue;
+    height: 100px;
+}
+
+
+@media screen and (min-width: 400px) and (max-width: 800px) {
+    .image-content { 
+        background-color: rgb(31, 109, 158);
+        height:90px;
+        width:auto;
+        border:3px solid
+    }
+  }
+
+  /* @media screen and (max-width: 400px){
+    .image-content { 
+        background-color: rgb(191, 209, 28);
+        height:250px;
+        width:auto;
+        border:3px solid
+    }
+  } */
+
+  @media screen and (min-width: 400px){
+    .p-content{
+        font-size:16px;
+        
+        
+    }
+    /* .trainer1 {
+        padding-top: 50px;
+        align-items: center;
+    } */
+  }
+
+  @media screen and (min-width: 400px) and (max-width: 800px) {
+    .p-content{
+        font-size:18px;
+        text-align: justify;
+        
+    }
+  }
+
+  @media screen and (max-width: 400px){
+    div {
+        width:100%;
+    }
+  }

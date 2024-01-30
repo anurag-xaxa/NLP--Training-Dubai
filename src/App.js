@@ -4,16 +4,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css';
 
 //Routes
-import About from './Compnents/AboutUs';
-import CertifiedCoach from './Compnents/CertifiedCoach.js';
-import EmotionalIntelligence from './Compnents/EmotionalIntelligence.js';
-import CertifiedDiploma from './Compnents/CertifiedDiploma.js';
-import CertifiedNlpMaster from './Compnents/CertifiedNlpMaster.js';
-import AdvancedDiploma from './Compnents/AdvancedDiploma.js';
-import CertifiedWellnessCoach from './Compnents/CertifiedWellnessCoach.js';
-import CertifiedLifeCoaching from './Compnents/CertifiedLifeCoaching.js';
-import InspiredMinds from './Compnents/InspiredMinds.js';
-import CertifiedWellbeingCoach from './Compnents/CertifiedWellbeingCoach.js';
+import About from './Components/AboutUs.js';
+import CertifiedCoach from './Components/CertifiedCoach.js';
+import EmotionalIntelligence from './Components/EmotionalIntelligence.js';
+import CertifiedDiploma from './Components/CertifiedDiploma.js';
+import CertifiedNlpMaster from './Components/CertifiedNlpMaster.js';
+import AdvancedDiploma from './Components/AdvancedDiploma.js';
+import CertifiedWellnessCoach from './Components/CertifiedWellnessCoach.js';
+import CertifiedLifeCoaching from './Components/CertifiedLifeCoaching.js';
+import InspiredMinds from './Components/InspiredMinds.js';
+import CertifiedWellbeingCoach from './Components/CertifiedWellbeingCoach.js';
+import Owl from './Components/Owl.js';
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/certified-life-coaching" element={<CertifiedLifeCoaching/>}></Route>
           <Route path="/yes-to-inspired-minds" element={<InspiredMinds/>}></Route>
           <Route path="/certified-wellbeing-coach" element={<CertifiedWellbeingCoach/>}></Route>
+          <Route path="/owl" element={<Owl/>}></Route>
           
         </Routes>
       </BrowserRouter>
