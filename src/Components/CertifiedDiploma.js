@@ -1,6 +1,10 @@
 import React from "react";
 import '../assets/style.css/CertifiedDiploma.css';
 import Carousel from 'react-bootstrap/Carousel';
+import Meeting_image from '../assets/images/meeting.jpg'
+import banner2 from '../assets/images/banner2-2.jpg'
+import VP_Menon from '../assets/images/VP_Menon.jpg'
+import ASSOCIATION from '../assets/images/IN-ASSOCIATION-WITH.png'
 
 
 const CertifiedDiploma = () => {
@@ -16,14 +20,7 @@ const CertifiedDiploma = () => {
                 >
                     <div className="container">
                         <div className="entry-banner-content">
-                            <h1 className="entry-title">Certified Diploma in NLP & Coaching</h1>
-                            <div className="breadcrumb-area">
-                                <div className="entry-breadcrumb">
-
-                                    <span className="breadcrumb-seperator"> - </span>
-
-                                </div>
-                            </div>
+                            <h1 className="entry-title">Certified Diploma in NLP & Coaching</h1>                          
                         </div>
                     </div>
                 </div>
@@ -31,25 +28,18 @@ const CertifiedDiploma = () => {
                 <div>
                     <img
                         height="550px"
-                        width="1050px"
+                        width="100%"
                         decoding="async"
-                        data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/globalguru22.jpg"
-                        className="lazyload"
-                        src="meeting.jpg"
+                        data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/77349f_2cf77f898c5d4d5297eb455e17db5d10_mv2.jpg"
+                        className="meeting-image"
+                        src={Meeting_image}
                         alt="fullsize_anim"
                     />
-                    <noscript>
-                        <img
-                            decoding="async"
-                            src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/imgpsh_fullsize_anim.jpg"
-                            alt="fullsize_anim"
-                        />
-                    </noscript>
                 </div>
                 <div>
                     <h1>Certified Diploma in NLP & Coaching</h1>
                     <h3>Certified by NLPCA <span style={{ fontStyle: 'italic' }}>(NLP Coaching Academy)</span> & <span style={{ fontWeight: 'bold' }}>IAPCCT</span> <span style={{ fontStyle: 'italic' }}>(International Association of Professional Coaches, Counselors & Therapists)</span></h3>
-                    <br /><button className="btn btn-primary">Register Now</button>
+                    <br /><button className="btn btn-primary btn-lg">Register Now</button>
 
                 </div>
             </div>
@@ -77,9 +67,9 @@ const CertifiedDiploma = () => {
                 </ol>
                 <p>Certified by NLPCA (NLP Coaching Academy) &amp; IAPCCT (International Association of Professional Coaches, Counselors &amp; Therapists)</p>
             </div>
-            <div className="container" style={{ marginTop: '20px' }}>
+            <div className="container">
                 <div className="row">
-                    <div className="col" style={{ backgroundColor:'grey', height: '550px', paddingTop: '20px', color: 'white', textAlign: 'left' }}>
+                    <div className="col-sm-12 col-md-6 col-lg-6" style={{ backgroundColor: 'rosybrown', height: '550px', paddingTop: '20px', color: 'white', textAlign: 'left' }}>
                         <h2 >What you will learn:</h2>
                         <ul>
                             <li>Introduction to NLP</li>
@@ -100,23 +90,16 @@ const CertifiedDiploma = () => {
                             <li>ICF Coaching Competencies</li>
                         </ul>
                     </div>
-                    <div className="col">
+                    <div className="col-sm-12 col-md-6 col-lg-6">
                         <img
                             height="550px"
                             width="500px"
                             decoding="async"
-                            data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/globalguru22.jpg"
+                            data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/banner2-2.jpg"
                             className="lazyload"
-                            src="banner2-2.jpg"
+                            src={banner2}
                             alt="fullsize_anim"
                         />
-                        <noscript>
-                            <img
-                                decoding="async"
-                                src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/imgpsh_fullsize_anim.jpg"
-                                alt="fullsize_anim"
-                            />
-                        </noscript>
                     </div>
                 </div>
             </div>
@@ -132,41 +115,35 @@ const CertifiedDiploma = () => {
                         <div className="carousel-content">VP is one of the best Trainer, Coach, and Motivational Speaker I&#039;ve ever met in my life. His enthusiasm &amp; positivity is contagious.
 
                             — Amit Powar</div>
-
                     </Carousel.Item>
                     <Carousel.Item>
-                        <h3 className="carousel-title" >Mohan Kamath -
+                        <h3 className="carousel-title">Mohan Kamath -
                         </h3>
                         <div className="carousel-content">“Team UV is passionate about what they are doing and they make the learning process fun and entertaining”
 
                             — Mohan Kamath</div>
-
                     </Carousel.Item>
                     <Carousel.Item>
                         <h3 className="carousel-title">Ijaz Hussain -
                         </h3>
                         <div className="carousel-content" >“I found Team UV highly professional and friendly. They transfer every bit of knowledge possible. I was amazed at their transparency in doing so.”
                         </div>
-
                     </Carousel.Item>
                     <Carousel.Item>
                         <h3 className="carousel-title">Nimmi Shibu -
                         </h3>
-                        <div className="carousel-content" >WHAT PEOPLE SAY
+                        <div className="carousel-content">WHAT PEOPLE SAY
 
                             “VP introduced me to the exciting world of NLP. I was lucky to learn under his flagship and get enlightened to this amazing concept.”</div>
-
                     </Carousel.Item>
                     <Carousel.Item>
-                        <h3 className="carousel-title" >Anand Rajan, Chattered Accountant -
+                        <h3 className="carousel-title">Anand Rajan, Chattered Accountant -
                         </h3>
                         <div className="carousel-content">“Truly awesome learning session. I am positive it will go a long way in my journey of rediscovering myself.”</div>
-
                     </Carousel.Item>
                 </Carousel>
-
             </div>
-            <h1 style={{color:'red', fontWeight:'bold'}}>About the Trainer</h1>
+            <h1 style={{ color: 'red', fontWeight: 'bold' }}>About the Trainer</h1>
             <div className="about_the-training">
                 <div className="row">
                     <div className="col-sm-12 col-md-4 col-lg-4">
@@ -174,27 +151,20 @@ const CertifiedDiploma = () => {
                             height="250px"
                             width="180px"
                             decoding="async"
-                            data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/globalguru22.jpg"
+                            data-src="	https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/VP_Menon_edited.webp"
                             className="img-fluid"
-                            src="VP_Menon.jpg"
-                            alt="fullsize_anim"
+                            src={VP_Menon}
+                            alt="VP_Menon"
                         />
-                        <noscript>
-                            <img
-                                decoding="async"
-                                src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/VP_Menon.jpg"
-                                alt="fullsize_anim"
-                            />
-                        </noscript>
                     </div>
                     <div className="col-sm-12 col-md-8 col-lg-8">
-                        <h3 style={{ textAlign: 'left'}}>VALSAKUMAR P MENON</h3>
+                        <h3 style={{ textAlign: 'left' }}>VALSAKUMAR P MENON</h3>
                         <p style={{ color: 'red', textAlign: 'left', fontSize: '20px' }}>Trainer | Success Coach | Business Start-up Mentor</p>
-                        <p style={{ textAlign: 'justify', paddingRight:'20px' }}>Valsakumar P Menon or VP as he is popularly known is a Trainer, Coach &amp; Mentor. He comes with over two decades of corporate experience and 15+ years of being a trainer &amp; coach. He is also an entrepreneur running his own business in training &amp; coaching since 2013.</p>
-                        <p style={{ textAlign: 'justify', paddingRight:'20px' }}>VP is a ICF PCC (Professional Certified Coach from the International Coaching Federation). He is also a Certified NLP Master Practitioner &amp; Coach, Certified NLP Trainer, Certified Group Coach, and an Emotional Intelligence Coach Practitioner. VP is also a Certified International Professional Training Consultant, an APICS CSCP and a Distinguished Toastmaster from Toastmasters International. He has also been trained in Positive Psychology, Hypnosis &amp; Neuroscience.</p>
-                        <p style={{ textAlign: 'justify', paddingRight:'20px' }}>As a coach VP’s strength is in working with people through individual coaching and facilitating leadership programs. This involves enabling people to increase self-awareness, effect desired change and by working in partnership enable individuals, teams, and organisations to flourish. VP believes that when people have purpose, feel engaged and empowered, they produce their best work.</p>
-                        <p style={{ textAlign: 'justify', paddingRight:'20px' }}>VP also empowers people by helping them to get trained and certified via various accredited training and certified programs and also guiding them to become entrepreneurs and start their own businesses ventures.</p>
-                        <p style={{ textAlign: 'justify', paddingRight:'20px' }}>VP firmly believes that it’s never too late to start improving and adding value to your life and hence loves the quote from Carl Bard which says, &#8220;Though no one can go back and make a brand-new start, anyone can start from now and make a brand-new ending&#8221;. He strongly believes in the power of sincerity &amp; humour and hence advocates the practice of living life sincerely and focussing on the funny side of life. He is currently based in Dubai, UAE and has been living here since 1999.</p>
+                        <p style={{ textAlign: 'justify', paddingRight: '20px' }}>Valsakumar P Menon or VP as he is popularly known is a Trainer, Coach &amp; Mentor. He comes with over two decades of corporate experience and 15+ years of being a trainer &amp; coach. He is also an entrepreneur running his own business in training &amp; coaching since 2013.</p>
+                        <p style={{ textAlign: 'justify', paddingRight: '20px' }}>VP is a ICF PCC (Professional Certified Coach from the International Coaching Federation). He is also a Certified NLP Master Practitioner &amp; Coach, Certified NLP Trainer, Certified Group Coach, and an Emotional Intelligence Coach Practitioner. VP is also a Certified International Professional Training Consultant, an APICS CSCP and a Distinguished Toastmaster from Toastmasters International. He has also been trained in Positive Psychology, Hypnosis &amp; Neuroscience.</p>
+                        <p style={{ textAlign: 'justify', paddingRight: '20px' }}>As a coach VP’s strength is in working with people through individual coaching and facilitating leadership programs. This involves enabling people to increase self-awareness, effect desired change and by working in partnership enable individuals, teams, and organisations to flourish. VP believes that when people have purpose, feel engaged and empowered, they produce their best work.</p>
+                        <p style={{ textAlign: 'justify', paddingRight: '20px' }}>VP also empowers people by helping them to get trained and certified via various accredited training and certified programs and also guiding them to become entrepreneurs and start their own businesses ventures.</p>
+                        <p style={{ textAlign: 'justify', paddingRight: '20px' }}>VP firmly believes that it’s never too late to start improving and adding value to your life and hence loves the quote from Carl Bard which says, &#8220;Though no one can go back and make a brand-new start, anyone can start from now and make a brand-new ending&#8221;. He strongly believes in the power of sincerity &amp; humour and hence advocates the practice of living life sincerely and focussing on the funny side of life. He is currently based in Dubai, UAE and has been living here since 1999.</p>
                     </div>
                 </div>
             </div>
@@ -203,30 +173,22 @@ const CertifiedDiploma = () => {
                 <p className="exite">
                     So go ahead. ENROLL NOW and get started.</p>
             </div>
-            <button className="btn btn-primary"type="submit">Register Now</button>
+            <button className="btn btn-primary btn-lg" type="submit">Register Now</button>
             <div>
-                    <h3 style={{margin:'40px 100px', fontSize:'20px' }}>Certified by NLPCA <span style={{ fontStyle: 'italic' }}>(NLP Coaching Academy)</span> & <span style={{ fontWeight: 'bold' }}>IAPCCT</span> <span style={{ fontStyle: 'italic' }}>(International Association of Professional Coaches, Counselors & Therapists)</span></h3>
+                <h3 style={{ margin: '40px 100px', fontSize: '20px' }}>Certified by NLPCA <span style={{ fontStyle: 'italic' }}>(NLP Coaching Academy)</span> & <span style={{ fontWeight: 'bold' }}>IAPCCT</span> <span style={{ fontStyle: 'italic' }}>(International Association of Professional Coaches, Counselors & Therapists)</span></h3>
 
-                </div>
-                <div>
+            </div>
+            <div>
                 <img
-                            height="100px"
-                            width="750px"
-                            decoding="async"
-                            data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/globalguru22.jpg"
-                            className="lazyload"
-                            src="IN-ASSOCIATION-WITH.png"
-                            alt="IN-ASSOCIATION-WITH.png"
-                        />
-                        <noscript>
-                            <img
-                                decoding="async"
-                                src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/IN-ASSOCIATION-WITH.png"
-                                alt="IN-ASSOCIATION-WITH.png"
-                            />
-                        </noscript>
-                </div>
-
+                    height="100px"
+                    width="750px"
+                    decoding="async"
+                    data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/globalguru22.jpg"
+                    className="lazyload"
+                    src={ASSOCIATION}
+                    alt="IN-ASSOCIATION-WITH.png"
+                />
+            </div>
         </>
     )
 }

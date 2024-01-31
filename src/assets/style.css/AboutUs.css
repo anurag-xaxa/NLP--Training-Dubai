@@ -84,7 +84,7 @@ a{
 }
 .western{
 	text-align: center;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	
 }
 #paragraph{
@@ -93,14 +93,35 @@ a{
 	padding: 20px;
 }
 
-@media screen and (max-width: 992px) {
-	.western {
-	  width: 100%;
-	}
-  }
+.mission-content {
+	padding: 0px 20px;
+	text-align: justify;
+	padding-top: 20px;
+	font-size: 1rem;
+}
 
-  @media screen and (max-width: 600px) {
+/* @media screen and (max-width: 992px) {
 	.western {
 	  width: 100%;
 	}
+  } */
+
+  /* @media screen and (min-width: 768px) {
+	.western {
+	  font-size: 30px;
+	}
+  } */
+
+  @media screen and (min-width: 400px) {
+	.western {
+	  font-size: 15px;
+	}
+	.mission-content{
+		align-self: auto;
+		/* font-size: 1.1rem; */
+	}
+	.western {
+		width: 100%;
+		font-size: 1.5rem;
+	  }
   }

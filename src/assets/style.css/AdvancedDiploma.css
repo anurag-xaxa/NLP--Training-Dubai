@@ -1,10 +1,23 @@
+/* .entry-banner {
+    background-image: url("../images/course3.jpg");
+} */
+.banner-image {
+    padding: 0px 20px;
+}
+
+.content {
+    width: 100%
+}
+
 .entry-title {
     font-family: sans-serif;
+
 }
+
 .Certification-content {
     font-size: 18px;
     text-align: justify;
-    margin-left:50px;    
+    margin-left: 50px;
 }
 
 .topic {
@@ -14,9 +27,48 @@
 }
 
 .paragraph {
-    font-size: 21px;
+    font-size: 18px;
     text-align: justify;
     color: #000;
     margin-top: 15px;
     padding: 10px 50px;
+}
+
+/* .Certification-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} */
+
+
+@media only screen and (max-width: 600px) {
+    .banner-image {
+        padding: 0px 20px;
+        height: 200px
+    }
+
+    .logo-image {
+        padding-top: 20px;
+    }
+
+}
+
+@media only screen,
+(min-width: 601px) and (max-width: 800px) {
+    .banner-image {
+        padding: 0px 20px;
+        height: 300px
+    }
+
+    .card-content {
+                
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    .banner-image {
+        padding: 0px 20px;
+        height: 500px
+    }
 }

@@ -27,225 +27,51 @@ const AboutUs = () => {
                 </div>
             </div>
             <div>
-            <p class="western" ><a href="https://www.nlptrainingdubai.com/"><strong>Enabling Transformation!</strong></a>
-            When we liberate ourselves from the unconstructive beliefs forced upon us by our own selves and others that imprison us, we allow into this space, real life transformational experiences. These experiences will raise us to our full potential, increase our understanding, allow us to take control of our self. Only when we have this control can we take responsibility to truly support others and bring about a transformation in their lives.”
-            </p>
-            
+                <p className="western" style={{ textAlign: "justify", marginTop: '80px', fontSize:'1.2rem' }}><a href="https://www.nlptrainingdubai.com/"><span><strong>Enabling Transformation!</strong></span></a></p>
+                <p className="western"><span style={{ fontSize: 'medium' }}><span><i>When we liberate ourselves from the unconstructive beliefs forced upon us by our own selves and others that imprison us, we allow into this space, real life transformational experiences. These experiences will raise us to our full potential, increase our understanding, allow us to take control of our self. Only when we have this control can we take responsibility to truly support others and bring about a transformation in their lives.”</i></span></span></p>
+
+                <p className="western" style={{ textAlign: "justify", paddingTop: '20px', fontSize:'1.2rem' }}><a href="https://www.nlptrainingdubai.com/icf-approved-training-in-dubai/"><span><strong>NLP Training Dubai, a Global NLP coaching platform which offers quality</strong> </span></a></p>
+                <p className="western"><span style={{ fontSize: 'medium' }}><span><i>NLP training and coaching certification programs in Dubai. We are known for conducting high-quality NLP Programs which are designed to develop versatile and highly applicable coaching & NLP skill sets for those of you who want to step into the field of coaching or to apply NLP to change or improve any area of their lives.</i></span></span></p>
+
+                <p className="western" style={{ textAlign: "justify", paddingTop: '20px', fontSize:'1.2rem' }}><a href="https://www.nlptrainingdubai.com/certified-nlp-program-in-dubai/"><span><strong>Certified NLP Training and Coaching Programs</strong> </span></a></p>
+                <p className="western"><span style={{ fontSize: 'medium' }}><span><i>The journey and goal of becoming an NLP Practitioner will not just empower you to specifically and objectively identify the physiological, mental-emotional state and mental strategies you use in different life situations, but will also provide practical skills, strategies, and resources that you can adopt to bring about the change that could only be termed as rewarding.</i></span></span></p>
+
+                <p className="western" style={{ textAlign: "justify", paddingTop: '20px', fontSize:'1.2rem' }}><a href="https://www.nlptrainingdubai.com/certified-life-coach-program-in-dubai/"><span><strong>Certified NLP Training and Coaching</strong> </span></a></p>
+                <p className="western"><span style={{ fontSize: 'medium' }}><span><i>One of the best life skills tools to take control of one’s life, steering it towards a better and more fulfilling life!</i></span></span></p>
+
+                <p className="western" style={{ textAlign: "justify", paddingTop: '20px', fontSize:'1.2rem' }}><a href="https://www.nlptrainingdubai.com/nlp-in-oman/"><span><strong>Benefits of being a Certified NLP Trainer and Coach</strong> </span></a></p>
+                <p className="western" style={{ textAlign: "justify", paddingTop: '30px', fontSize:'1.2rem' }}><a href="https://www.nlptrainingdubai.com/certified-life-coaching/"><span><strong>As a Coach, you will gain process knowledge, strategy and tools to:</strong> </span></a></p>
+
+                <p className="western" style={{ textAlign: "justify", paddingTop: '20px', fontSize:'1.2rem' }}><b>1.</b><a href="https://www.nlptrainingdubai.com/nlp-training-in-uae/"><span><strong>Design a better life</strong> </span></a></p>
+                <p className="western"><span style={{ fontSize: 'medium' }}><span><i>Break habitual patterns, decode limiting behaviours, instil a more conscious and rewarding thinking pattern, achieve goals and results, create a ‘nothing is impossible’ mind set, negotiate to win and communicate to persuade.</i></span></span></p>
+
+                <p className="western" style={{ textAlign: "justify", paddingTop: '20px', fontSize:'1.2rem' }}><b>2.</b><a href="https://www.nlptrainingdubai.com/icf-approved-training-in-dubai/"><span><strong>Attract Maximum Success by creating a success mind-set</strong> </span></a></p>
+                <p className="western"><span style={{ fontSize: 'medium' }}><span><i>Helps make rewarding decisions that creates a richness and success mind–set by renewing the sub-conscious programming.
+
+                </i></span></span></p>
+
+                <p className="western" style={{ textAlign: "justify", paddingTop: '20px', fontSize:'1.2rem' }}><b>3.</b><a href="https://www.nlptrainingdubai.com/nlp-training-in-abu-dhabi/"><span><strong>Increase Self Efficiency and Self Worth</strong> </span></a></p>
+                <p className="western"><span style={{ fontSize: 'medium' }}><span><i>Everyone wants to be a winner! Position yourself and your clients for maximum success by learning and implementing ‘Maximizer’ strategies for success and personal fulfilment.</i></span></span></p>
+
+                <p className="western" style={{ textAlign: "justify", paddingTop: '20px', fontSize:'1.2rem' }}><b>4.</b><a href="https://www.nlptrainingdubai.com/icf-acc-courses-in-dubai/"><span><strong>Enjoy a Lucrative and Satisfying Career</strong> </span></a></p>
+                <p className="western"><span style={{ fontSize: 'medium' }}><span><i>A Certified Wellness Coach, can choose from a long list of highly rewarding and lucrative careers as people and businesses are becoming more aware of its effect and importance. Wellness is rapidly growing and expanding globally. As a Coach, you will help more people build better relationships, increase their success quotient, and enhance their health, vitality, energy and overall happiness.</i></span></span></p>
+
             </div>
-            {/* <div id="primary" className="content-area">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-sm-12 col-xs-12">
-                            <main id="main" className="site-main">
-                                <article id="post-3275" className="post-3275 page type-page status-publish hentry">
-                                    <div className="entry-content">
-                                        <div className="vc_row wpb_row vc_row-fluid">
-                                            <div className="wpb_column vc_column_container vc_col-sm-12">
-                                                <div className="vc_column-inner">
-                                                    <div className="wpb_wrapper">
-                                                        <div className="wpb_text_column wpb_content_element">
-                                                            <div className="wpb_wrapper">
-                                                                <p className="western" align="justify">
-                                                                    <a href="https://www.nlptrainingdubai.com/">
-                                                                        <span style={{ fontSize: 'medium' }}>
-                                                                            <strong className="western">Enabling Transformation!</strong>
-                                                                        </span>
-                                                                    </a>
-                                                                </p>
-                                                                <p className="paragraph">
-                                                                    <i>
-                                                                        When we liberate ourselves from the unconstructive beliefs forced upon us by our
-                                                                        own selves and others that imprison us, we allow into this space, real life
-                                                                        transformational experiences. These experiences will raise us to our full potential,
-                                                                        increase our understanding, allow us to take control of our self. Only when we have
-                                                                        this control can we take responsibility to truly support others and bring about a
-                                                                        transformation in their lives.”
-                                                                    </i>
-                                                                </p>
-                                                                
 
-                                                                    <p className="western">
-                                                                        <b>
-                                                                        <a href="https://www.nlptrainingdubai.com/icf-approved-training-in-dubai/">NLP Training Dubai,</a>{' '}
-                                                                        <a href="https://www.nlptrainingdubai.com/nlp-training-in-sharjah/">a Global NLP coaching platform which offers quality </a>
-                                                                        </b>
-                                                                    </p>
-
-                                                                    <p className="paragraph">
-                                                                    NLP training and coaching certification programs in Dubai. We are known for conducting
-                                                                    high-quality NLP Programs which are designed to develop versatile and highly applicable
-                                                                    coaching & NLP skill sets for those of you who want to step into the field of coaching or
-                                                                    to apply NLP to change or improve any area of their lives.
-
-                                                                </p>
-                                                                <p className="western" align="justify">
-                                                                    <a href="https://www.nlptrainingdubai.com/certified-nlp-program-in-dubai/">
-
-                                                                        <b>Certified NLP Training and Coaching Programs</b>
-
-                                                                    </a>
-                                                                </p>
-                                                                <p className="paragraph">
-
-                                                                    The journey and goal of becoming an NLP Practitioner will not just empower you to
-                                                                    specifically and objectively identify the physiological, mental-emotional state and mental
-                                                                    strategies you use in different life situations, but will also provide practical skills,
-                                                                    strategies, and resources that you can adopt to bring about the change that could only be
-                                                                    termed as rewarding.
-
-                                                                </p>
-                                                                <p className="western">
-
-                                                                    <b>
-                                                                        <a href="https://www.nlptrainingdubai.com/certified-life-coach-program-in-dubai/">
-                                                                            Certified NLP Training and Coaching
-                                                                        </a>{' '}
-                                                                        –{' '}
-                                                                    </b>
-
-
-                                                                    <p className="paragraph">
-                                                                        One of the best life skills tools to take control of one’s life, steering it towards a
-                                                                        better and more fulfilling life!
-                                                                    </p>
-
-                                                                </p>
-                                                                <p className="western">
-                                                                    <strong>
-                                                                        <a href="https://www.nlptrainingdubai.com/nlp-in-oman/">
-                                                                           Benefits of being a Certified NLP Trainer and Coach
-                                                                        </a>
-                                                                    </strong>
-                                                                </p>
-                                                                <p className="western">
-                                                                    <a href="https://www.nlptrainingdubai.com/certified-life-coaching/">
-
-                                                                        <b>As a Coach, you will gain process knowledge, strategy and tools to:</b>
-
-                                                                    </a>
-                                                                </p>
-                                                                <p className="western">
-
-                                                                    <b>
-                                                                        1.{' '}
-                                                                        <a href="https://www.nlptrainingdubai.com/nlp-training-in-uae/">Design a better life</a>
-                                                                    </b>
-
-                                                                </p>
-                                                                <p className="paragraph">
-
-                                                                    Break habitual patterns, decode limiting behaviours, instil a more conscious and
-                                                                    rewarding thinking pattern, achieve goals and results, create a ‘nothing is impossible’
-                                                                    mind set, negotiate to win and communicate to persuade.
-
-                                                                </p>
-                                                                <p className="western">
-
-                                                                    <b>
-                                                                        2.{' '}
-                                                                        <a href="https://www.nlptrainingdubai.com/icf-approved-training-in-dubai/">
-                                                                            Attract Maximum Success by creating a success mind-set{' '}
-                                                                        </a>
-                                                                    </b>
-
-                                                                </p>
-                                                                <p className="paragraph">
-
-                                                                    Helps make rewarding decisions that creates a richness and success mind–set by renewing the
-                                                                    sub-conscious programming.
-
-                                                                </p>
-                                                                <p className="western">
-
-                                                                    <b>
-                                                                        3.{' '}
-                                                                        <a href="https://www.nlptrainingdubai.com/nlp-training-in-abu-dhabi/">Increase Self Efficiency and Self Worth</a>
-                                                                    </b>
-
-                                                                </p>
-                                                                <p className="paragraph">
-
-                                                                    Everyone wants to be a winner! Position yourself and your clients for maximum success by
-                                                                    learning and implementing ‘Maximizer’ strategies for success and personal fulfilment.
-
-                                                                </p>
-                                                                <p className="western">
-
-                                                                    <b>
-                                                                        4.{' '}
-                                                                        <a href="https://www.nlptrainingdubai.com/icf-acc-courses-in-dubai/">Enjoy a Lucrative and Satisfying Career</a>
-                                                                    </b>
-
-                                                                </p>
-                                                                <p className="paragraph">
-
-                                                                    A Certified Wellness Coach, can choose from a long list of highly rewarding and lucrative
-                                                                    careers as people and businesses are becoming more aware of its effect and importance.
-                                                                    Wellness is rapidly growing and expanding globally. As a Coach, you will help more people
-                                                                    build better relationships, increase their success quotient, and enhance their health,
-                                                                    vitality, energy and overall happiness.
-
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </article>
-                            </main>
-                        </div>
-                    </div>
-                </div>
+            <div className="mission-content" style={{ marginTop: '40px' }}>
+                <h2><b style={{ color: '#b21f27' }}>Mission</b></h2>
+                <p style={{ textAlign: 'justify', marginLeft: '30px' }}>To transform the lives of individuals by offering premium quality Certified NLP Training and Coaching, that provide practical knowledge and skills, resources and strategies, to help them grow personally and professionally and lead more fulfilling lives.</p>
             </div>
-            <div className="vc_custom_1548243896858">
-            <h2 className="rt-section-title-vc" style={{ fontSize: '30px', color: '#b21f27' }}>Mission</h2>
+            <div className="mission-content">
+                <h2><b style={{ color: '#b21f27' }}>Founders & Faculty</b></h2>
+                <p className="western" style={{ textAlign: "justify", paddingTop: '20px', fontSize:'1.2rem' }}><b></b><a href="https://www.nlptrainingdubai.com/nlp-training-in-abu-dhabi/"><span><strong>We don’t just add value, we create transformations and transformers</strong> </span></a></p>
+
+                <p style={{ textAlign: 'justify', marginLeft: '30px' }}>As an organisation that operates on the basis of integrity and a commitment to bring out the best in people, we believe that each of our programs must be vital for the person experiencing it, to bring about a true, positive change in their lives.</p>
+                <p style={{ textAlign: 'justify', marginLeft: '30px' }}>Our leaders and faculty resonate with this belief and strive to create an overall coaching experience that will not only empower participants to enhance their lives but which will make their entire learning journey impactful and bring about an empowering shift. The sessions conducted are enjoyable along with great learnings to last a lifetime.</p>
             </div>
-            <div className="wpb_text_column wpb_content_element">
-                <div className="wpb_wrapper">
-                    <p className="paragraph">
-
-                        To transform the lives of individuals by offering premium quality Certified NLP Training and Coaching,
-                        that provide practical knowledge and skills, resources and strategies, to help them grow personally and
-                        professionally and lead more fulfilling lives.
-
-                    </p>
-                </div>
-            </div>
-            <div className="vc_custom_1548243913176">
-                <div className="rt-vc-title rtin-section-title-left">
-                    <h2 className="rt-section-title-vc" style={{ fontSize: '30px', color: '#b21f27' }}>Founders &amp; Faculty</h2>
-                </div>
-            </div>
-            <div className="wpb_text_column wpb_content_element">
-
-                <p className="paragraph">
-                    <a href="https://www.nlptrainingdubai.com/certified-nlp-program-in-dubai/">
-
-                        <b>We don’t just add value, we create transformations and transformers</b>
-
-                    </a>
-                </p>
-                <p className="paragraph">
-
-                    As an organisation that operates on the basis of integrity and a commitment to bring out the best in
-                    people, we believe that each of our programs must be vital for the person experiencing it, to bring
-                    about a true, positive change in their lives.
-
-                </p>
-                <p className="paragraph">
-
-                    Our leaders and faculty resonate with this belief and strive to create an overall coaching experience
-                    that will not only empower participants to enhance their lives but which will make their entire
-                    learning journey impactful and bring about an empowering shift. The sessions conducted are enjoyable
-                    along with great learnings to last a lifetime.
-
-                </p>
-            </div> */}
             <div className="founders">
                 <div className="row">
-                    <div className="col-sm-4" style={{padding:'20px'}}>
+                    <div className="col-sm-4 col-md-6 col-lg-6" style={{ padding: '20px' }}>
                         <img
                             fetchpriority="high"
                             decoding="async"
@@ -265,7 +91,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-8">
+                    <div className="col-sm-4 col-md-6 col-lg-6">
                         <h2 style={{ fontSize: '30px', color: '#b21f27', padding: '20px' }}>Uma Radhakrishnan</h2>
 
                         <p id="paragraph">
@@ -297,7 +123,7 @@ const AboutUs = () => {
             </div>
             <div className="founders">
                 <div className="row">
-                    <div className="col-sm-4" style={{padding:'20px'}}>
+                    <div className="col-sm-4 col-md-6 col-lg-6" style={{ padding: '20px' }}>
                         <img
                             fetchpriority="high"
                             decoding="async"
@@ -318,7 +144,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-8">
+                    <div className="col-sm-4 col-md-6 col-lg-6">
                         <h2 style={{ fontSize: '30px', color: '#b21f27', padding: '20px' }}>Valsakumar P. Menon</h2>
 
                         <p id="paragraph">Valsakumar P Menon or VP as he is popularly known is a motivational speaker, trainer &amp; coach. He comes with over two decades of corporate experience, having worked with multinational organizations in India and the Middle East, in the fields of Training, Supply Chain Management, International trade &amp; business development, Operations Management &amp; Quality Management. His career with the Multinationals has given him exposure to markets spanning India, Far East, Middle East, Africa, Europe and America.</p>
@@ -331,7 +157,7 @@ const AboutUs = () => {
             <div className="founders">
 
                 <div className="row">
-                    <div className="col-sm-4" style={{padding:'20px'}}>
+                    <div className="col-sm-4 col-md-6 col-lg-6" style={{ padding: '20px' }}>
                         <img
                             fetchpriority="high"
                             decoding="async"
@@ -352,7 +178,7 @@ const AboutUs = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-8">
+                    <div className="col-sm-4 col-md-6 col-lg-6">
                         <h2 style={{ fontSize: '30px', color: '#b21f27', padding: '20px' }}>Vikram Dhar</h2>
                         <p id="paragraph">Mr. Vikram Dhar is an internationally acclaimed NLP Trainer who facilitates NLP and Coaching programs across the globe. He is also a Licensed Behavioral Master Trainer. Vikram is an ICF-Mentor Coach, Licensed Meta-NLP Trainer certified by Michael Hall (co-founder of Neuro-Semantics) and Certified NLP Trainer (ABNLP, USA) and Member NLP Trainer (ANLP, UK). Vikram is also a Licensed NLP Coach (Certified by Richard Bandler, co-founder of NLP) and has attended the International NLP Coach &amp; New Code Practitioner training directly with John Grinder (co-founder of NLP). Vikram holds a Master’s Degree in Computer Science from Bradley University, Illinois, USA and is a modern day Business Growth Hacker and a Business Coach. In his corporate career, he has worked with market leaders in many roles – IT Risk and Business Advisor, Sales Leader and Coach, for over a decade and half.</p>
                     </div>

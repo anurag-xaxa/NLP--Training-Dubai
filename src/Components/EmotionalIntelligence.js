@@ -174,15 +174,15 @@ const EmotionalIntelligence = () => {
                 <div className="row">
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className="cont">
-                            <p style={{ textAlign: 'center  ', fontSize: '25px', fontWeight: 'bold' }}><span className="who-will">Who will benefit:</span></p>
+                            <p style={{ textAlign: 'center', fontSize: '25px', fontWeight: 'bold' }}><span className="who-will">Who will benefit:</span></p>
                             <p className="emotionale">Emotional Intelligence is a skill that is relevant in all life situations, be those domestic or professional. This workshop is open to all participants above 18 years of age and adds value to Students, Working Professionals from any domain or industry, Homemakers, HR and L&amp;D Professionals, Counsellors or Therapists, Coaches or Trainers, Parents, Entrepreneurs and Social Service sector professionals</p>
 
                         </div>
                     </div>
-                    <div className="col-sm-12 col-md-6 col-lg-6" style={{paddingRight:'30px 30px'}}>
+                    <div className="col-sm-12 col-md-6 col-lg-6" style={{padding:'30px 30px'}}>
                         <img 
                             height="500px"
-                            width="400px"
+                            width="450px"
                             decoding="async"
                             data-src="https://www.nlptrainingdubai.com/wp-content/uploads/2022/04/globalguru22.jpg"
                             className="lazyload"
